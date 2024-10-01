@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /oauth
+
+spring:
+  application:
+    name: oauth
+  cloud:
+    azure:
+      active-directory:
+        enabled: true
+        credential:
+          client-id: <your-client-ID>
+        app-id-uri: <your-app-ID-URI>
+        # https://github.com/Azure-Samples/azure-spring-boot-samples/blob/main/aad/spring-cloud-azure-starter-active-directory/web-client-access-resource-server/aad-resource-server/README.md
