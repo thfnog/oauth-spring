@@ -13,4 +13,5 @@ spring:
         credential:
           client-id: <your-client-ID>
         app-id-uri: <your-app-ID-URI>
+        # https://learn.microsoft.com/pt-br/azure/developer/java/spring-framework/spring-boot-starter-for-azure-active-directory-developer-guide?tabs=SpringCloudAzure5x#protect-a-resource-serverapi
         # https://github.com/Azure-Samples/azure-spring-boot-samples/blob/main/aad/spring-cloud-azure-starter-active-directory/web-client-access-resource-server/aad-resource-server/README.md
